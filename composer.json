@@ -1,0 +1,16 @@
+{
+    "name": "projekt/projekt",
+    "description": "Test",
+    "type": "project",
+    "require": {
+        "psr/log": "^3.0",
+        "symfony/console": "^7.1@RC"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Projekt\\Projekt\\": "src/"
+        }
+    },
+    "minimum-stability": "RC"
+}
